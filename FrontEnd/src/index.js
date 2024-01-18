@@ -6,6 +6,10 @@ import Header from "./header.js";
 import Body from "./Body";
 import Footer from "./Footer";
 import { createBrowserRouter,Outlet,RouterProvider } from "react-router-dom";
+import Timeline from "./Timeline.js";
+import Register from "./Register";
+import About from "./About.js";
+import Speaker from "./Speaker.js";
 
 const App=()=>{
     return(
@@ -25,6 +29,21 @@ const Approuter=createBrowserRouter([
             {
                 path:'/',
                 element:<Body/>
+            },
+            {
+                path:'/schedule',
+                element:<Timeline/>
+            },{
+                path:'/register',
+                element:<Register/>
+            },
+            {
+                path:'/about',
+                element:<About/>
+            },
+            {
+                path:'/speaker',
+                element:<Speaker/>
             }
         ]
     }

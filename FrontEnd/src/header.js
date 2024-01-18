@@ -26,9 +26,10 @@ const Header = () => {
       <div className="flex justify-center ">
         <ul className=" flex items-center *:px-4">
         <Link to=""><li>Why Attend?</li></Link>
-        <Link to=""><li>Who are We?</li></Link>
-        <Link to=""><li>Speakers</li></Link>
-        <Link to=""><li>Schedule</li></Link>
+        <Link to="/about"><li>Who are We?</li></Link>
+        <Link to="/speaker"><li>Speakers</li></Link>
+        <Link to="/schedule"><li>Schedule</li></Link>
+        <Link to="/register"><li>Register</li></Link>
 
         </ul>
       </div>

@@ -1,8 +1,12 @@
 import React from 'react'
-
+import one from '../images/1.jpg'
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <div>
+      <div>
+      
+      </div>
+    </div>
   )
 }
 
