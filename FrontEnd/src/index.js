@@ -6,14 +6,15 @@ import Header from "./header.js";
 import Body from "./Body";
 import Footer from "./Footer";
 import { createBrowserRouter,Outlet,RouterProvider } from "react-router-dom";
+import WhyAttend from "./WhyAttend.js";
 
 const App=()=>{
     return(
         <>
         <Header/>
         <Outlet/>
+        <WhyAttend/>
         <Footer/>
-       
         </>
     )
 }
