@@ -10,6 +10,7 @@ import Timeline from "./Timeline.js";
 import Register from "./Register";
 import About from "./About.js";
 import Speaker from "./Speaker.js";
+import Gallery from "./Gallery.js";
 
 const App=()=>{
     return(
@@ -43,6 +44,10 @@ const Approuter=createBrowserRouter([
             {
                 path:'/speaker',
                 element:<Speaker/>
+            },
+            {
+                path:'/gallery',
+                element:<Gallery/>
             }
         ]
     }
