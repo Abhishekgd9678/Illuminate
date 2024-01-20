@@ -18,12 +18,12 @@ const Speaker = () => {
                         .pauseFor(1000)
                         .start()
                         .callFunction(()=>{
-                            setText("Our Bloved Speakers");
+                            setText("Our Beloved Speakers");
                         })
                 }}
             />}
         </div>
-        <div className='flex shadow-2xl rounded-lg m-2' 
+        <div className='flex flex-col md:flex-row shadow-2xl rounded-lg m-2' 
             data-aos="fade-up"
             data-aos-offset="200"
             data-aos-delay="50"
@@ -33,8 +33,8 @@ const Speaker = () => {
             data-aos-once="false"
             data-aos-anchor-placement="top"
          >
-            <div>
-                <img src={img1} className='rounded-[50%] w-[100rem] py-2 px-4 m-2 ' />
+            <div className='w-full'>
+                <img src={img1} className='rounded-[50%]  w-[100rem] py-2 px-4 m-2 ' />
             </div>
             <div className='p-2 m-2' >
                 <h1 className='text-2xl font-semibold py-4' >
@@ -55,7 +55,7 @@ const Speaker = () => {
                 </p>
             </div>
         </div>
-        <div className='flex shadow-2xl rounded-lg m-2' 
+        <div className='flex flex-col md:flex-row shadow-2xl rounded-lg m-2' 
             data-aos="fade-up"
             data-aos-offset="200"
             data-aos-delay="50"
