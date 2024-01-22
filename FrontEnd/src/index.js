@@ -11,6 +11,7 @@ import Register from "./Register";
 import About from "./About.js";
 import Speaker from "./Speaker.js";
 import Gallery from "./Gallery.js";
+import NewsArticle from "./Articles.js";
 
 const App=()=>{
     return(
@@ -48,6 +49,10 @@ const Approuter=createBrowserRouter([
             {
                 path:'/gallery',
                 element:<Gallery/>
+            },
+            {
+                path:'/articles',
+                element:<NewsArticle/>
             }
         ]
     }
